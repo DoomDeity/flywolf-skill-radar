@@ -1,17 +1,25 @@
-# FlyWolf GitHub Skill Radar
+# FlyWolf Skills
 
-Public Codex skill for discovering trending GitHub skills, MCP servers, agent plugins, and projects that can become reusable AI-agent skills.
+Public skill collection for Codex and AI-agent workflows.
 
-It produces two practical rankings:
+This repository can host multiple standalone skills. Each skill lives in its own folder and contains its own `SKILL.md`.
 
-- **Overall Top 10**: durable high-value projects, with repeat appearances tracked.
+## Skills
+
+### `flywolf-github-skill-radar`
+
+Finds trending GitHub skills, MCP servers, agent plugins, and reusable agent-tool projects.
+
+It produces:
+
+- **Overall Top 10**: durable high-value projects with repeat appearances tracked.
 - **Fastest Growing**: projects gaining momentum since the previous run.
+- **Analysis Advice**: whether to install, audit, watch, or skip based on the current user's profile and installed skills.
 
-The report also explains whether each project is worth installing, auditing, watching, or skipping based on the current user's profile and installed skills.
-
-## Quick Start
+Run directly:
 
 ```bash
+cd flywolf-github-skill-radar
 python scripts/github_skill_radar.py --output github-skill-radar.md
 ```
 
@@ -24,17 +32,20 @@ GITHUB_TOKEN=... python scripts/github_skill_radar.py \
   --output github-skill-radar.md
 ```
 
-The script uses only Python's standard library. By default, it stores lightweight history in `.github-skill-radar/history.json`.
-
 ## 中文说明
 
-这是一个公开版 Codex Skill，用来定期发现 GitHub 上值得关注的 Skill、MCP server、Agent 插件，以及可以封装成 Skill 的项目。
+这是 FlyWolf 的公开 Skill 合集仓库，用来存放可复用的 Codex / AI Agent 工作流 Skill。
 
-它会输出两张榜单：
+每个 Skill 都是一个独立目录，目录里包含自己的 `SKILL.md`。因此仓库名不需要和某一个 Skill 完全一致。
 
-- **综合 Top 10**：长期高价值项目，会标记第几次出现，避免重复霸榜看不清。
-- **本期增长最快**：根据历史记录看 stars、fork 和活跃度变化，发现新机会。
+### `flywolf-github-skill-radar`
 
-它不会自动安装任何项目，只会给出“建议审计 / 继续观察 / 不建议安装 / 与已有 Skill 重复”等判断。
+用于发现 GitHub 上值得关注的 Skill、MCP server、Agent 插件，以及可以封装成 Skill 的项目。
 
-如果你提供 `RADAR_PROFILE.md` 或 `--installed-dir`，它会根据你的目标和已安装 Skill 做更准确的适配分析。
+它会输出：
+
+- **综合 Top 10**：长期高价值项目，并记录重复出现次数。
+- **本期增长最快**：根据历史记录看 stars、fork 和活跃度变化。
+- **分析建议**：结合用户画像和已安装 Skill，判断是否值得安装、审计、观察或跳过。
+
+它不会自动安装任何项目。
