@@ -8,7 +8,7 @@ This repository is a public skill collection. Each folder is an independent skil
 
 | Skill | Purpose |
 |---|---|
-| `flywolf-github-skill-radar` | Finds useful GitHub projects that may be worth installing, auditing, watching, or packaging as reusable AI-agent skills. |
+| `FlyWolf-github-skill-radar` | Finds useful GitHub projects that may be worth installing, auditing, watching, or packaging as reusable AI-agent skills. |
 
 ## How To Use
 
@@ -17,13 +17,13 @@ Clone the repository and copy the skill folder you want into your agent's skill 
 Example:
 
 ```bash
-git clone https://github.com/DoomDeity/flywolf-skills.git
+git clone https://github.com/DoomDeity/FlyWolf-Skills.git
 ```
 
 Then install or reference one skill folder, such as:
 
 ```text
-flywolf-github-skill-radar/
+FlyWolf-github-skill-radar/
 ```
 
 Read that folder's `SKILL.md` for its exact usage.
@@ -38,20 +38,20 @@ Read that folder's `SKILL.md` for its exact usage.
 
 | Skill | 用途 |
 |---|---|
-| `flywolf-github-skill-radar` | 从 GitHub 发现值得安装、审计、观察，或适合封装成 AI Agent Skill 的项目。 |
+| `FlyWolf-github-skill-radar` | 从 GitHub 发现值得安装、审计、观察，或适合封装成 AI Agent Skill 的项目。 |
 
 ## 使用方式
 
 克隆这个仓库，然后把需要的 Skill 子目录复制到你的 Agent Skill 目录里。
 
 ```bash
-git clone https://github.com/DoomDeity/flywolf-skills.git
+git clone https://github.com/DoomDeity/FlyWolf-Skills.git
 ```
 
 例如当前可用的 Skill 子目录是：
 
 ```text
-flywolf-github-skill-radar/
+FlyWolf-github-skill-radar/
 ```
 
 具体用法请进入该目录阅读 `SKILL.md`。
