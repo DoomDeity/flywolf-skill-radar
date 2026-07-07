@@ -1,0 +1,3 @@
+display_name: Video Copy Extractor
+short_description: Extract video speech into text files.
+default_prompt: Extract the copy from this video or video link and save it as a transcript file.
