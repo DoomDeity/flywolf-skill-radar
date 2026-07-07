@@ -1,0 +1,9 @@
+# Local (FunASR) backend dependencies for video-copy-extractor.
+# Install with the skill's venv pip:
+#   Windows:   <skill-dir>\.venv\Scripts\python.exe -m pip install -r requirements.txt
+#   macOS/Linux: <skill-dir>/.venv/bin/python -m pip install -r requirements.txt
+--index-url https://download.pytorch.org/whl/cpu
+torch
+torchaudio
+funasr
+oss2
