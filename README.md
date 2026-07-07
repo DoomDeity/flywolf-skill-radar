@@ -1,4 +1,4 @@
-# FlyWolf's Skill
+# FlyWolf Skill Radar
 
 Public Codex skill for finding trending GitHub skills, MCP servers, agent plugins, and projects that can be packaged as reusable AI-agent skills.
 
@@ -18,4 +18,3 @@ GITHUB_TOKEN=... python scripts/github_skill_radar.py \
 ```
 
 The script uses only Python's standard library. By default, it stores lightweight history in `.github-skill-radar/history.json`.
-
