@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.github-skill-radar/
+github-skill-radar.md
+RADAR_PROFILE.md
+USER_PROFILE.md
+OWNER_PROFILE.md

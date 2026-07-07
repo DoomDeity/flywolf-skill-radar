@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Skill Radar"
+  short_description: "Finds trending public skills, MCPs, plugins, and agent tools."
+  default_prompt: "Use $github-skill-radar to find this week's most relevant GitHub skills and plugin candidates."
