@@ -1,9 +1,9 @@
 ---
-name: github-skill-radar
+name: flywolf-github-skill-radar
 description: Use when finding, ranking, and assessing trending GitHub skills, MCP servers, agent plugins, agent workflows, or projects that could be packaged as reusable AI-agent skills.
 ---
 
-# GitHub Skill Radar
+# FlyWolf GitHub Skill Radar
 
 Find public GitHub projects that may be useful as skills, MCP servers, plugins, or agent workflow components. Rank both durable leaders and fast-growing newcomers, then judge whether the current owner should install, audit, watch, or ignore them.
 
