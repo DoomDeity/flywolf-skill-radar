@@ -9,6 +9,7 @@ This repository is a public skill collection. Each folder is an independent skil
 | Skill | Purpose |
 |---|---|
 | `FlyWolf-github-skill-radar` | Finds useful GitHub projects that may be worth installing, auditing, watching, or packaging as reusable AI-agent skills. |
+| `fuji-scene-recipe-master` | Analyzes an uploaded scene photo and generates a practical Fujifilm JPEG recipe matched to the light, contrast, color temperature, subject, and target look. |
 
 ## How To Use
 
@@ -24,6 +25,7 @@ Then install or reference one skill folder, such as:
 
 ```text
 FlyWolf-github-skill-radar/
+fuji-scene-recipe-master/
 ```
 
 Read that folder's `SKILL.md` for its exact usage.
@@ -39,6 +41,7 @@ Read that folder's `SKILL.md` for its exact usage.
 | Skill | 用途 |
 |---|---|
 | `FlyWolf-github-skill-radar` | 从 GitHub 发现值得安装、审计、观察，或适合封装成 AI Agent Skill 的项目。 |
+| `fuji-scene-recipe-master` | 根据现场照片分析光线、反差、色温、主体与目标风格，并生成可直接设置到富士相机中的 JPEG 直出配方。 |
 
 ## 使用方式
 
@@ -52,6 +55,7 @@ git clone https://github.com/DoomDeity/FlyWolf-Skills.git
 
 ```text
 FlyWolf-github-skill-radar/
+fuji-scene-recipe-master/
 ```
 
-具体用法请进入该目录阅读 `SKILL.md`。
+具体用法请进入对应目录阅读 `SKILL.md`。
